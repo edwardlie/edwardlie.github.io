@@ -1,3 +1,4 @@
+/* THECODETEAM*/
 h3{
     color: blue;
 }
@@ -188,8 +189,8 @@ body {
   background: linear-gradient(#464646,#000000);
 }
 
-.csi-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/csi-1-300x99.png);
+.ecommerce-image {
+  background-image: url(EdwardsShop.png);
 }
 
 .grid-image-top.kubernetes {
@@ -199,8 +200,8 @@ body {
   background: linear-gradient(#09C1D1,#326DE6);
 }
 
-.kubernetes-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/kubernetes-300x293.png);
+.businessportal-image {
+  background-image: url(Edit\ Credentials.png);
 }
 
 .grid-image-top.grpc {
@@ -316,4 +317,26 @@ body {
   .grid-item {
     flex-basis: 100%;
   }
+}
+
+.modal,body.modal-open {
+  padding-right: 0!important
+}
+
+body.modal-open {
+  overflow: auto
+}
+
+body.scrollable {
+  overflow-y: auto
+}
+
+.modal-footer {
+display: flex;
+justify-content: flex-start;
+}
+
+.modal-footer .btn{
+position: relative;
+right: 10px;
 }
