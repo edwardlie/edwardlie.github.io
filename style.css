@@ -211,8 +211,9 @@ body {
   background: linear-gradient(#0CC1C8,#2E838C);
 }
 
-.grpc-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/grpc-300x105.png);
+.movie-image {
+  /* background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/grpc-300x105.png); */
+  background-image: url(MovieAPI.png);
 }
 
 .grid-image-top.envoy {
