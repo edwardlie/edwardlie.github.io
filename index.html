@@ -1,389 +1,347 @@
-<html> 
-    <head>
-        <title>
-            Edward Lie
-        </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="icon" href="https://img.icons8.com/pastel-glyph/64/000000/person-male.png">
-    </head>
-    <body>
-        <br>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <!-- <li>
+                <a href="#contact">Contact</a>
+            </li> -->
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Edward Lie</h1>
+            <h2>iOS Developer</h2>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
         <div class="container">
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="streamlineIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="DefaultVisualizationStreamlines.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="DefaultVisualizationStreamlines.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="currencyIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="CurrencyTracker.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="CurrencyTracker.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="lifeguardIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="LifeguardApp.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="LifeguardApp.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="markupIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="JavaAPI.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="JavaAPI.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="stockIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="StockExchangeManager.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="StockExchangeManager.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="shopIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="EdwardsShop.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="EdwardsShop.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="roleIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="Edit Credentials.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="Edit Credentials.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="movieIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="MovieAPI.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="MovieAPI.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="shopIMG" role="dialog" tabindex="-1">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-body mb-0 p-0">
-                  <img src="DefaultVisualizationStreamlines.png" alt="" style="width:100%">
-                </div>
-                <div class="modal-footer">
-                  <div><a href="DefaultVisualizationStreamlines.png" target="_blank">Download</a></div>
-                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div> -->
             <div class="row">
-                <div class="col-md-3">
-                    <div id="profile-wrapper" class="card card-body h-100 border-info">
-                        <img style="width:100%" id="profile-pic" src="Edward-Lie.jpg">
-                        <ul class="social-links">
-                          <li class="social"><a href="https://www.linkedin.com/in/edwardlie/"><img class="social" src="linkedin.png"></a></li>
-                          <li class="social"><a href="https://github.com/edwardlie"><img class="social" src="github2.png"></li></a>
-                          <!-- <li class="social"><img class="social" src="twitter.png"></li>
-                          <li class="social"><img class="social" src="youtube.png"></li> -->
-                      </ul>
-                        <hr>
-                        <h4>Hi I'm Edward!</h4>
-                        <p>Thanks for visiting my page!</p>
-                        <p></p>
-                    </div>
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
                 </div>
-                <div class="col-md-9">
-                    <div class="card card-body h-100 border-info">
-                        <h4>About Me: </h4>
-                        <hr>
-                        <p>Software Engineer</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card card-body h-100">
-                    <h5>
-                        Education
-                    </h5>
-                    <hr>
-                    <p>Holder of Two Degrees
-                      <ul>
-                          <li>BA in Biology from the University of Texas at Austin</li>
-                          <li>BS in Computer Science (Software Track) from the University of Houston</li>
-                      </ul>
-                  </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card card-body h-100">
-                        <h5>Relevant Work Experience</h5>
-                        <hr>
-                        <p>Worked two full-time programming positions while finishing coursework. GPA: 4.0 for each class taken while employed</p>
-                        <p>2020-2021: Software Developer at General Motors</p>
-                        <p>2018-2020: Junior Programmer at Triple-S Steel at Houston, TX headquarters, Houston Chronicle's Top 100 Private Companies At Number 15 For 2019 By Revenue</p>
-                        <p>2018: Enterprise Data and Analytics Intern on the Global Business Operations team at Expeditors International of Washington based in Seattle, WA</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card card-body h-100">
-                        <h5>Skills/Interests</h5>
-                        <hr>
-                        <p>Angular, Kubernetes, Java, JavaScript, Scala, Spark, Swift, TypeScript</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card card-body h-100">
-                    <h5>Interesting Facts</h5>
-                    <hr>
-                    <p>Worked in restaraunt industry
-                        <!-- <ul>
-                            <li></li>
-                            <li></li>
-                        </ul> -->
+                <div class="col-md-8">
+                    <p>
+                        As an iOS Developer at Accenture Federal Services, I leverage my skills in software development and data analytics to create innovative solutions for clients. 
+                        I have a strong background in object-oriented programming, functional programming, and big data processing, with experience in technologies such as Swift, Scala, Java, 
+                        TypeScript, Docker, Kubernetes, Python, React, and Spark. I also have a Bachelor of Science in Computer Science from the University of Houston and a Bachelor of Arts in Biology from the University of Texas at Austin. I am passionate about learning new technologies and applying them to real-world problems. I am also an AWS Certified Solutions Architect and Developer, which demonstrates my proficiency in cloud computing and web services.
                     </p>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="container">
-            <div class="grid-row">
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="https://github.com/edwardlie/Evenly_Spaced_Streamlines"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top rex-ray">
-                      <a class="wrapping-link" data-target="#streamlineIMG" data-toggle="modal" href="#"></a>
-                      <span class="centered project-image-bg evenlyspacedstreamline-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Evenly-spaced Streamlines</span>
-                      <span class="item-category">C++, OpenGL</span>
-                      <span class="item-excerpt">Written in C++ using OpenGL with content and goal individualized to present full GUI and backend logic in a concise, meaningful way</span>
-                      <span class="more-info">View Project  <a class="wrapping-link" href="https://github.com/edwardlie/Evenly_Spaced_Streamlines"></a><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="" target="_blank"></a>	    -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top sputnik">
-                      <a class="wrapping-link" data-target="#currencyIMG" data-toggle="modal" href="" target="_blank"></a>	   
-                      <span class="centered project-image-bg currencytracker-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Currency Tracker</span>
-                      <span class="item-category">Electron.JS, CSS, Desktop App Dev, HTML, JavaScript, Node.JS</span>
-                      <span class="item-excerpt">Implementation of stand-alone web application to notify user based on selected currency and specified target rates using live data from API, unit testing, and class tethering</span>
-                      <!-- <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="" target="_blank"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top edgex">
-                      <a class="wrapping-link" data-target="#lifeguardIMG" data-toggle="modal" href="" target="_blank"></a>
-                      <span class="centered project-image-bg lifeguard-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Lifeguard Emergency Mobile App</span>
-                      <span class="item-category">AWS (Cognito, EC2, RDS, S3), iOS, Objective-C, PostgreSQL, Swift, Twilio</span>
-                      <span class="item-excerpt">A sponsor-based project to bring lifeguards together with an emergency mobile app designed using continuous integration in a test-driven development process</span>
-                      <span class="more-info">View Project  <a class="wrapping-link" href="https://github.com/edwardlie/BeachGuardian"></a><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="" target="_blank"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top openswitch">
-                      <a class="wrapping-link" data-target="#markupIMG" data-toggle="modal" href="" target="_blank"></a>
-                      <span class="centered project-image-bg javaapi-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Java API for Markup and Margin Determination</span>
-                      <span class="item-category">Apache Tomcat, HTML, Java, Jersey Framework, JSON, REST, XML</span>
-                      <!-- <span class="item-excerpt">The OpenSwitch platform is an open source, Linux-based network operating sy...</span> -->
-                      <span class="item-excerpt">API for processing of revenue and COGS written using REST-based web service to script collection of protocols used to exchange data between API and server</span>
-                      <!-- <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="https://github.com/edwardlie/Stock-Exchange-Manager" target="_blank"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top scaleio">
-                      <a class="wrapping-link" data-target="#stockIMG" data-toggle="modal" href="" target="_blank"></a>
-                      <span class="centered project-image-bg stockexchangemanager-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Stock Exchange List Manager</span>
-                      <span class="item-category">JavaScript, Node.JS, React.JS</span>
-                      <!-- <span class="item-excerpt">Configure Kubernetes resources to consume storage from volumes hosted on Sc...</span> -->
-                      <span class="item-excerpt">Configure stock exchanges around the world for management and storage</span>
-                      <span class="more-info">View Project <a class="wrapping-link" href="https://github.com/edwardlie/Stock-Exchange-Manager"></a><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="https://github.com/edwardlie/EcommerceProject"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top csi">
-                      <a class="wrapping-link" data-target="#shopIMG" data-toggle="modal" href="#"></a>
-                      <span class="centered project-image-bg ecommerce-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Technology Shop</span>
-                      <span class="item-category">Angular, Docker, H2-Console, Java, JDBC, Maven, Node.js, Spring Boot/MVC</span>
-                      <span class="item-excerpt">A dockerized one-stop shop for shoppers interested in laptops</span>
-                      <span class="more-info">View Project <a class="wrapping-link" href="https://github.com/edwardlie/EcommerceProject"></a><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="https://thecodeteam.com/projects/kubernetes/"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top kubernetes">
-                      <a class="wrapping-link" data-target="#roleIMG" data-toggle="modal" href=""></a>
-                      <span class="centered project-image-bg businessportal-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Role-based Business Portal</span>
-                      <span class="item-category">C#, ASP.NET, Entity Framework, HTML, CSS</span>
-                      <span class="item-excerpt">A role-based business portal for those who need a quick solution for employee management with authentication and authorization</span>
-                      <!-- <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <!-- <a class="wrapping-link" href="https://grpc.io/" target="_blank"></a> -->
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top grpc">
-                      <a class="wrapping-link" data-target="#movieIMG" data-toggle="modal" target="_blank" href=""></a>
-                      <span class="centered project-image-bg movie-image"></span>
-                    </div>
-                    <!-- <div class="grid-item-content">
-                      <span class="item-title">GRPC</span>
-                      <span class="item-category">Tools and Libraries</span>
-                      <span class="item-excerpt">A high performance, open source, general-purpose RPC framework.</span>
-                      <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div> -->
-                    <div class="grid-item-content">
-                      <span class="item-title">Classic Movie API</span>
-                      <span class="item-category">Golang, GraphQL</span>
-                      <span class="item-excerpt">API built to harness of power of GraphQL with a backend written in Go and gqlgen to allow client side to specify queries to call </span>
-                      <span class="more-info">View Project <a class="wrapping-link" href="https://github.com/edwardlie/Movie-API"></a><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--<div class="grid-item">
-                <a class="wrapping-link" href="https://thecodeteam.com/projects/envoy/"></a>
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top envoy">
-                      <span class="centered project-image-bg envoy-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Envoy</span>
-                      <span class="item-category">Software Based Infrastructure</span>
-                      <span class="item-excerpt">An open source edge and service proxy, from the developers at Lyft.</span>
-                      <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item">
-                <a class="wrapping-link" href="https://thecodeteam.com/projects/istio/"></a>
-                <div class="grid-item-wrapper">
-                  <div class="grid-item-container">
-                    <div class="grid-image-top istio">
-                      <span class="centered project-image-bg istio-image"></span>
-                    </div>
-                    <div class="grid-item-content">
-                      <span class="item-title">Istio</span>
-                      <span class="item-category">Software Based Infrastructure</span>
-                      <span class="item-excerpt">Connect, secure, control, and observe services.</span>
-                      <span class="more-info">View Project <i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2023 – Present">
+                <h3>Accenture Federal Services</h3>
+                <h4>iOS Developer</h4>
+                <p>
+                    <li>Skills: Swift, SwiftUI, UIKit, Core Graphics, Swift Package Manager, Xcode, Fastlane, JWT</li>
+                    <li>Developed native iOS applications and packages with API-based user authentication and authorization in Swift using the SwiftUI framework</li>
+                    <li>Leveraged version control systems and performance tools such as Xcode Instruments to measure and improve app performance</li>
+                    <li>Created custom PDF creation and viewing tool using UIKit without use of third-party libraries</li>
+                    <li>Collaborated with functional, backend, Pega, UI/UX design, and QA teams to streamline mobile app distribution to thousands of users</li>
+                </p>
             </div>
-          </div>
-        <br>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+            <div data-date="September 2021 – September 2023">
+                <h3>Deloitte</h3>
+                <h4>iOS Mobile and Front End Developer</h4>
+                <p>
+                    <li>Skills: Swift, React Native, React, Java, Next.js, TailwindCSS, tRPC, Prisma, KeyCloak, AWS ECS, RDS, ElastiCache, ECR</li>
+                    <li>Implemented code, versioning, and interface updates for B2C iOS app so customers can go straight to client rather than third parties</li>
+                    <li>Team lead, mentor, and cloud architect for development of global point prevalent survey using Next.js</li>
+                    <li>Leveraged functional programming in design and implementation of DDL, API, and notification services in Java to demo to clients</li>
+                    <li>Supported development of antibiotic resistance portal providing spatially-driven, interactive data visualizations using React and D3Plus</li>
+                </p>
+            </div>
+
+            <div data-date="July 2020 – September 2021">
+                <h3>General Motors</h3>
+                <h4>Software Developer - Global Data AI & Analytics - Big Data Services & Ingestion</h4>
+                <p>
+                    <li>Developer on Global Data AI and Analytics Service Team in Software Development - Big Data Services and Ingestion</li>
+                    <li>Used technologies such as Angular, Docker, Java, Hadoop, Hive, Kafka, Kubernetes, Maven, Python, React, Scala, Spark, and Spring</li>
+                    <li>Wrote object-oriented Java and functional Scala applications to process, stream, and batch big data applications</li>
+                    <li>Wrote Bash and Python scripts to run Spark jobs and process batch and stream data in Kubernetes</li>
+                    <li>Created directed acyclic graph visualizations using ngx-graph to help developers manage, monitor, and maintain ingestion jobs</li>
+                    <li>Developed website for data analysts and engineers to manage audit security and configure Kafka job processes</li>
+                    <li>Participated in CI/CD process in team comprising over 25 developers using Agile methodologies to design, implement, and test code</li>
+                    <li>Developed APIs and event-driven microservices using Spring Boot and Spring Cloud</li>
+                    <li>Tested infrastructure compatibility with Spark, Delta, and Hive in legacy environment and confirm versioning requirements</li>
+                    <li>Created, assisted, and moved application releases into production</li>
+                    <li>Helped with stabilization and cut over to next generation architecture by debugging, managing, cataloguing, and fixing problems with merge streams at table and source level based on cluster availability, user-needs, and testing purposes</li>
+                    <li>Managed, monitored, tuned, and optimized merge process data and metadata across various data stores including Hadoop and Oracle and data layers including Hive and Hue creating, removing, archiving, and updating files and directories to account for various source types and Spark memory resource requirements</li>
+                    <li>Developed, managed, and maintained cronjobs for automation of scheduled merges</li>
+                    <li>Coordinated with users across development teams to process new data ingestion requests, uncover and solve support issues, and validate data is in the correct format and location, in-sync, and up-to-date</li>
+                </p>
+            </div>
+
+            <div data-date="September 2018 – July 2020">
+                <h3>Triple-S Steel</h3>
+                <h4>Junior Programmer</h4>
+                <p>
+                    <li>Designed and developed mobile applications to scan and track in and out-going shipments and improve order tracking in iOS using Swift and Android</li>
+                    <li>Utilized Java and PHP conversion, cross-threading, NPOI, and BIRT to implement order, distributed printing, and inventory tracking programs</li>
+                    <li>Helped with UI improvements for company site and iOS order tracking application</li>
+                    <li>Designed, developed, and maintained custom software and add-ons linked to ERP system</li>
+                    <li>Rebuilt front and back end of traffic report portal by working on improvement, integration, and migration from legacy traffic management site made up of multiple smaller traffic management sites. Project resulted in a scalable final product utilized by operations department</li>
+                    <li>Created program, site, and report generator to replace labor tracking and reporting process for accounting, HR, and labor department</li>
+                    <li>Participated in unit testing, porting of old apps, code review, logging, and maintenance of source-controlled code</li>
+                    <li>Optimized company production tracking, payroll processing, Human Resources purchase order site approval hierarchy, traffic reporting, tax rate calculation, item verification, and shipping process</li>
+                    <li>Revamped to-do list manager system with program that pulls updated info on a scheduled cadence</li>
+                    <li>Integrated users and new branches to determine product features implemented based on existing production offerings</li>
+                    <li>Updated API endpoints and UI for scanner truck loading and inventory programs</li>
+                    <li>Built software tools, scripts, and libraries to search, sort, and filter order inventory and interface with ERP data</li>
+                    <li>Created and maintained SQL reports, scripts, and generators</li>
+                    <li>Updated branch reporting tool, production calculator web app, and programs written in Java</li>
+                    <li>Created email tracking monitor using cookie injection and text to html conversion to track user activity</li>
+                    <li>Deployed application to manage EDI transactions with one of branch’s top customer decreasing average processing time by 90% per order</li>
+                </p>
+            </div>
+
+            <div data-date="June 2018 – August 2018">
+                <h3>Expeditors International of Washington</h3>
+                <h4>Enterprise Data & Analtyics Intern</h4>
+                <p>
+                    <li>Intern on Global Business Operations Team</li>
+                    <li>Helped with rebuilding of databases and development of applications using front and back end technologies</li>
+                    <li>Built dashboards using various business intelligence (BI) tools and conducted statistical data analysis</li>
+                    <li>Wrote and tested scripts to enhance automation of processes in internal systems for customer that brings in roughly 2/3 of company’s revenue</li>
+                    <li>Met with operations team to determine opportunities and solutions for mapping of processes and process improvement</li>
+                    <li>Presented reports and summaries of projects to company managers, supervisors, leads, and team members to determine opportunities and solutions for process mapping and improvement</li>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Houston</h3>
+            <!-- <span class="education-date">June 2018 - December 2019</span> -->
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>Grade: 3.957/4.0</li>
+                <li>Activities and societies: CougarCS, Christians on Campus at UH</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Texas at Austin</h3>
+            <!-- <span class="education-date">August 2009 - May 2013</span> -->
+            <h4>Bachelor of Arts in Biology</h4>
+            <ul>
+                <li>
+                    Grade: 3.4535/4.0
+                </li>
+                <li>
+                    Activities and societies: Asian Health Professions Organization, Christian Students on Campus, Freshman Research Initiative
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/bible-app-icon.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Bible Verse Finder</h3>
+                        <div style="text-align: left">
+                        <li>
+                            MVVM app using the SwiftUI and Combine framework and Firebase SDK to find any list of bible verses from Bible API
+                        </li>
+                        <li>
+                            Implements search functionality and ability to connect to CloudKit and CoreData to save data
+                        </li>
+                        </div>
+                        <a href="https://github.com/edwardlie/Bible-Verse-Finder">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/LifeguardApp.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Lifeguarde Emergency Mobile App</h3>
+                        <div style="text-align: left">
+                            <li>
+                                Set up and developed database, form UI, and file transfer capabilities using CocoaPods, AWS Cognito, EC2, RDS, S3, Jenkins, and Twilio
+                            </li>
+                            <li>
+                                Engaged in continuous integration writing unit tests in a test-driven development process using XCTest in a team of 7 developers
+                            </li>
+                            <li>
+                                Responsible for over 20% code coverage with focus on S3 and Twilio API to help achieve 98% overall coverage
+                            </li>
+                        </div>
+                        <a href="https://github.com/edwardlie/BeachGuardian">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Swift</li>
+            <li>SwiftUI</li>
+            <li>UIKit</li>
+            <li>Combine</li>
+            <li>Xcode</li>
+            <li>Swift Data</li>
+            <li>CoreML</li>
+            <li>Firebase</li>
+            <li>Core Data</li>
+            <li>Cloud Kit</li>
+            <li>Swift Package Manager (SPM)</li>
+            <li>Core Graphics</li>
+            <li>Realm</li>
+            <li>Redux</li>
+            <li>Swift Testing</li>
+            <li>XCTest</li>
+            <li>RxSwift</li>
+            <li>Fastlane</li>
+            <li>JWT</li>
+            <li>Python</li>
+            <li>Rust</li>
+            <li>C++</li>
+            <li>TypeScript</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Java</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div> -->
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year"></span> Edward Lie
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/edwardlie" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://linkedin.com/in/edwardlie" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
